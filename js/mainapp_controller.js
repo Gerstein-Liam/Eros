@@ -14,9 +14,11 @@ mainApp.config(['$routeProvider', function ($routeProvider) {
     .when("/", {templateUrl: "partials/home.html"})
 	
   
-  .when("/red", {templateUrl: "partials/our_project.html"})
-   
-
+  .when("/project", {templateUrl: "partials/our_project.html"})
+   .when("/lab", {templateUrl: "partials/our_lab.html"}) 
+ .when("/news", {templateUrl: "partials/news.html"}) 
+  .when("/why", {templateUrl: "partials/for_who.html"}) 
+    .when("/who", {templateUrl: "partials/who_we_are.html"}) 
     .otherwise("/404", {templateUrl: "partials/404_page_not_found.html"});
 }]);
 
