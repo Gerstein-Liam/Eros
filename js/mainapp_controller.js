@@ -13,7 +13,7 @@ mainApp.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     .when("/", {templateUrl: "partials/home.html"})
 	
-  
+     .when("/home", {templateUrl: "partials/home.html"})
   .when("/project", {templateUrl: "partials/our_project.html"})
    .when("/lab", {templateUrl: "partials/our_lab.html"}) 
  .when("/news", {templateUrl: "partials/news.html"}) 
