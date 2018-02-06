@@ -47,10 +47,19 @@
 		<link rel="stylesheet" href="library/bootstrap-4.0.0-dist/css/bootstrap-reboot.css">
 		<link rel="stylesheet" href="library/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css">
 	<!-- Feuille de style -->
+		
+			 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="style/style.css">
+			<script src="js/mainapp_controller.js"></script>
   </head>
   <body>
-	<div class="row">
+  
+  
+  
+  
+	<body ng-app="mainApp">
+    
+			<div class="row">
 		 <div class="col-lg-2 col-md-2">
 				<img  src="media/icon_tree.png" alt="Girl in a jacket" style="width:50px;height:50px;">
 		 </div>
@@ -64,16 +73,14 @@
     <div class="row">
       <div class="col-lg-2 col-md-2">
         <ul>
-         <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">Notre projet</a></li>
-  <li><a href="#contact">Nos ateliers</a></li>
-  <li><a href="#about">Actus</a></li>
-  <li><a href="#about">Pour qui et pourquoi?</a></li>
-   <li><a href="#about">Qui sommes-nous?</a></li>
+   
+
+  <li><a href="#!red">Nos ateliers</a></li>
+
         </ul>
       </div>
       <div class="col-lg-10 col-md-10">
-				<p>Contenu</p>
+					<div ng-view></div>
       </div>
     </div>
 	<div class="row">
@@ -81,5 +88,14 @@
 				<p>Footer</p>
 		 </div>
 	</div>
-  </body>
+	
+		
+		
+		
+		
+	
+
+</body>
+
+ 
 </html>
