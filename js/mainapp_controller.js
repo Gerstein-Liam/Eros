@@ -20,6 +20,9 @@ mainApp.config(['$routeProvider', function($routeProvider) {
         .when("/lab", {
             templateUrl: "partials/our_lab.html"
         })
+		.when("/photos", {
+            templateUrl: "partials/photo.html"
+        })
         .when("/news", {
             templateUrl: "partials/news.html"
         })
