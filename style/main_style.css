@@ -16,11 +16,14 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #085e57;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #007bff;
+    background-color: #fcd420;
     color: white;
 }
+
+
+  vertical-align
