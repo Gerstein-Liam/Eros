@@ -32,6 +32,9 @@ mainApp.config(['$routeProvider', function($routeProvider) {
         .when("/who", {
             templateUrl: "partials/who_we_are.html"
         })
+		.when("/info_prize", {
+            templateUrl: "partials/info_prize.html"
+        })
         .otherwise("/404", {
             templateUrl: "partials/404_page_not_found.html"
         });
