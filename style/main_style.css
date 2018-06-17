@@ -25,5 +25,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-
-  vertical-align
+#img_titre{
+	margin-left: 60px;
+}
