@@ -28,3 +28,40 @@ li a:hover:not(.active) {
 #img_titre{
 	margin-left: 60px;
 }
+.img-responsive{
+	width:100%;
+	margin-left: auto;
+    margin-right: auto
+}
+
+#note{
+	background-color: #ffffff;
+	border: 1px solid #26B7D4;
+	border-radius: 10px;
+}
+
+
+#pdfview{
+	
+	 height: 80vh;
+	 width: 100%;
+}
+
+#cv_view {
+  transition: all linear 1s;
+    background-color: transparent;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+#cv_view.ng-hide {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
