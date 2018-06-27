@@ -77,3 +77,18 @@ table, th, td {
 th, td {
     padding: 15px;
 }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body { 
+			background-image: url("../media/bg.jpg") ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  
+}
