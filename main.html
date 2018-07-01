@@ -77,26 +77,26 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-theme.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	
-
+	
+	
     <!-- Feuille de style -->
-    <link rel="stylesheet" href="style/accueil.css">
+    <link rel="stylesheet" href="style/style.css">
     <script src="js/mainapp_controller.js"></script>
 </head>
 <body>
-    <body>
-          
-	<div class="row">
-		   
-		  <img  src="media/Logo_titre.PNG" alt="Girl in a jacket"  id="img_titre">
-      </div>	
-
-   <div class="row">
-		   
-		   <img  src="media/slogan.svg" id="slog"  >
-      </div>		  
-		   <div class="row">
-		   <a href="http://localhost/eros/main.html" id="bt"><img  src="media/bt.svg"  ></a>
-      </div>
-
-   </body>
+    <body  ng-app="mainApp">
+        <div ng-include='"templates/header.html"'></div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2">
+				<div ng-include='"templates/nav.html"'></div>
+			</div>
+			<div class="col-lg-9 col-md-9">
+                <div ng-view></div>
+            </div>
+			<div class="col-lg-1 col-md-1">
+                
+            </div>
+        </div>
+        <div ng-include='"templates/footer.html"'></div>
+    </body>
 </html>
