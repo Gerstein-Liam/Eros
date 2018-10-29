@@ -14,7 +14,7 @@
    viewBox="0 0 77.544317 54.576361"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="bt.svg">
   <defs
      id="defs2" />
@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="348.591"
+     inkscape:cx="228.23386"
      inkscape:cy="-61.760953"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-y="-1"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="10"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,14 +71,6 @@
        rx="26.909725"
        ry="19.822678"
        style="opacity:1;fill:#000080;fill-opacity:1;stroke:#2a0000;stroke-width:0.30673122;stroke-opacity:1" />
-    <ellipse
-       style="opacity:1;fill:#d45500;fill-opacity:1;stroke:#2a0000;stroke-width:0.386843;stroke-opacity:1"
-       id="path4639"
-       cx="12.528147"
-       cy="40.855396"
-       rx="9.6731834"
-       ry="36.742073"
-       transform="matrix(0.7234508,-0.69037595,0.69961163,0.71452332,0,0)" />
   </g>
   <g
      inkscape:label="texte"
@@ -132,7 +124,7 @@
            height="87.14286"
            x="351.42856"
            y="309.66254" /></flowRegion><flowPara
-         id="flowPara4571"></flowPara></flowRoot>    <ellipse
+         id="flowPara4571" /></flowRoot>    <ellipse
        id="path3715-5"
        cx="43.939743"
        cy="25.046133"

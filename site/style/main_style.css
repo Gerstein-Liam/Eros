@@ -28,10 +28,15 @@ li a:hover:not(.active) {
 #img_titre{
 	margin-left: 60px;
 }
+
+
+
 .img-responsive{
-	width:80%;
+	width:100%;
 	margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    border-radius: 20px;
+    width=40%;
 }
 
 #note{
