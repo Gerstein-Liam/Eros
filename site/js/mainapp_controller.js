@@ -1,7 +1,9 @@
 //-------------------------------------------------- Routage-------------------------------------------------------------------------------------------------------------- 
 'use strict';
-var mainApp = angular.module('mainApp', [ // Module nGRoute--> Routage des view   |ModulerouteAppControllers-> Permet d'attacher un controlleur a une vue
+var mainApp = angular.module(
+    'mainApp', [ // Module nGRoute--> Routage des view   |ModulerouteAppControllers-> Permet d'attacher un controlleur a une vue
     'ngRoute',
+    'ngMaterial',
     'routeAppControllers'
 ]);
 
@@ -10,12 +12,11 @@ mainApp.config(['$routeProvider', function($routeProvider) {
         .when("/", {
             templateUrl: "partials/home.html"
         })
-
         .when("/home", {
             templateUrl: "partials/home.html"
         })
-        .when("/project", {
-            templateUrl: "partials/our_project.html"
+        .when("/ethos_project_presentation", {
+            templateUrl: "partials/ethos_project_presentation.html"
         })
         .when("/lab", {
             templateUrl: "partials/our_lab.html"
